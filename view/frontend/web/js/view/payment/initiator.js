@@ -10,8 +10,8 @@ define(
         'use strict';
         rendererList.push(
             {
-                type: 'klasha_checkout',
-                component: 'Klasha_Klasha/js/view/payment/initiator/gladepay_checkout'
+                type: 'klasha_pay',
+                component: 'Klasha_Klasha/js/view/payment/initiator/klasha_pay'
             }
         );
         /** Add view logic here if needed */

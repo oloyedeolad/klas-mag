@@ -11,7 +11,7 @@ use Magento\Payment\Helper\Data as PaymentHelper;
 
 class Payment implements PaymentInterface
 {
-    const CODE = 'klasha_checkout';
+    const CODE = 'klasha_pay';
 
     protected $config;
 
